@@ -1,0 +1,7 @@
+matplotlib
+pypdf2
+numpy
+panda
+chardet
+pikepdf
+seaborn
