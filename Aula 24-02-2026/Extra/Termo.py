@@ -7,7 +7,7 @@ def limpar_terminal():
 
 
 
-resposta = "perto"
+resposta = "credo"
 numero_de_tentativas = 6
 tamanho_da_resposta=len(resposta)
 letras_acertadas=["_"]*tamanho_da_resposta

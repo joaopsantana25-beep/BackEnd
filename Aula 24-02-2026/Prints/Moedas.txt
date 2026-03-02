@@ -1,0 +1,21 @@
+3 Objetos
+
+Parte 1
+
+Moedas de 10 Centavos
+Moedas de 25 Centavos
+Moedas de 50 centavos
+
+Parte 2
+
+Propriedades: 
+
+Tamanho
+Valor
+Peso
+
+Comportamentos
+
+comprar()
+doar()
+pagar()
