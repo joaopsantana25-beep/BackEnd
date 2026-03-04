@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Exercicio10 {
     public static void main(String[] args){
         float resultado = conversao_C_F();
-        System.out.println("O resultado da conversão é: "+resultado+" °F");
+        System.out.printf("O resultado da conversão é: %.2f °F",resultado);
     }
     public static float conversao_C_F(){
         Scanner scanner = new Scanner(System.in);
