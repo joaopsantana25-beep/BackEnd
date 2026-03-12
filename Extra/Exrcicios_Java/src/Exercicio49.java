@@ -8,5 +8,35 @@ Faça um programa que calcule e escreva o número de anos necessários para que 
 ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
  */
+
+
 public class Exercicio49 {
+    public static void main(String[] args){
+        int contador_anos=0;
+
+        //Populacao nas cidades
+        float popolacaoA = 80000;
+        float populacaoB=200000;
+
+        //Taxa de Crecimento
+        double crescimentoA=0.03;
+        double crescimentoB=0.015;
+
+        while (true){
+            contador_anos++;
+            popolacaoA*=(1+crescimentoA);
+            populacaoB*=(1+crescimentoB);
+
+            if (popolacaoA>=populacaoB){
+                break;
+            }
+
+        }
+        System.out.print("Vai demorar "+contador_anos+" anos para a população da cidade A ultrapassar ou igualar a população da cidade B");
+
+
+
+    }
+
+
 }
