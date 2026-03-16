@@ -21,6 +21,7 @@ class ContaBancaria:
         self.agencia = agencia
         self.num_conta = num_conta
         self.transacoes = []
+        self._cartoes=[]
 
 
 
