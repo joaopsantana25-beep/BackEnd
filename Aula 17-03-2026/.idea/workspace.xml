@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e9d170-ab7d-4d7b-b29f-aad60dc941f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Aula 10-03-2026-Parte2/Aula 10-03-2026-Parte2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula 10-03-2026-Parte2/Seccao3-4/src/Parsing01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Aula 17-03-2026.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seccao3-5/Seccao3-5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seccao3-5/src/Input01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seccao3-5/src/Input02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio71.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio73.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio74.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio76.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio77.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio78.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula 09-03-2026/Testes/CartaoCredito.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula 09-03-2026/Testes/CartaoCredito.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seccao3-5/src/Input03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seccao3-5/src/Input04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Atividades_Java/Seccao_3-4/Exercicio1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3B5EXzO3Uf5DiWmr8nw3gv8MMkL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,9 +38,12 @@
   "keyToString": {
     "Application.Input01.executor": "Run",
     "Application.Input02.executor": "Run",
+    "Application.Input03.executor": "Run",
+    "Application.Input04.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
