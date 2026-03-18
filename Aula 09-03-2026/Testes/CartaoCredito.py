@@ -132,6 +132,19 @@ class CartaoCredito:
         self.conta_corrente = conta_corrente
         conta_corrente._cartoes.append(self)
 
+    #metodo getter
+    @property
+    def senha(self):
+        return self._senha
+
+    # metodo setter
+    @senha.setter
+    def senha(self,valor):
+        if len(valor)==4 and valor.isnumeric():
+            self._senha = valor
+        else:
+            print("Nova senha incorreta!!!")
+
 
 #cartão de Credito
 cartao_pedro = ContaCorrente.CartaoCredito("Pedro", conta_pedro)
@@ -141,7 +154,7 @@ cartao_pedro.numero =123
 
 cartao_pedro=ContaCorrente.CartaoCredito("Pedro", conta_pedro)
 cartao_pedro.numero ="1234-5678-9101-1121"
-cartao_pedro.senha=123
+cartao_pedro.senha=1234
 
 print(cartao_pedro.numero,
       cartao_pedro.titular,
