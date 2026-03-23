@@ -35,7 +35,7 @@ public class Exercicio80 {
             alturas_dos_alunos.add(altura);
             alunos_validados++;
 
-            if (alunos_validados==3){
+            if (alunos_validados==10){
                 break;
             }
         }
