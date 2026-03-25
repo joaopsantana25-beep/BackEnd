@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c088fb4-7c1c-4ee3-9403-934ab1f81a7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Aula 24-02-2026/Testes_Java/src/Problema2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula 24-02-2026/Testes_Java/src/CarinhaFeliz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula 24-02-2026/Testes_Java/src/CarinhaFeliz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio85.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Extra/Exrcicios_Java/src/Exercicio85.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Extra/out/production/Exrcicios_Java/Exercicio85.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Extra/out/production/Exrcicios_Java/Exercicio85.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +23,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3ARl41Vvinhp3Yyf0TTwSkNjxkk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Exercicio1.executor": "Run",
-    "Application.Exercicio2.executor": "Run",
-    "Application.Exercicio3.executor": "Run",
-    "Application.Teste_Jarlibs.executor": "Run",
-    "Application.jarLibs.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Joao_Santana/Segundo Semestre/BackEnd2/Aula 03-03-2026",
-    "onboarding.tips.debug.path": "D:/Joao_Santana/Segundo Semestre/BackEnd2/Aula 03-03-2026/Testes_Java_Aula09/Exercicios/src/Main.java",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Exercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste_Jarlibs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jarLibs.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Joao_Santana/Segundo Semestre/BackEnd2/Aula 03-03-2026&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Joao_Santana/Segundo Semestre/BackEnd2/Aula 03-03-2026/Testes_Java_Aula09/Exercicios/src/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

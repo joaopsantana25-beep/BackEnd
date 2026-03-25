@@ -23,6 +23,16 @@ public class Exercicio85 {
 
     double candidato1=0,candidato2=0,candidato3=0,candidato4=0,nulo=0,branco=0,numero_votos=0;
 
+    System.out.println("Tabela de Candidatos");
+    System.out.println("_____________________________");
+    System.out.println("Código  |  Candidato");
+    System.out.println("1       |  José");
+    System.out.println("2       |  Romário");
+    System.out.println("3       |  João");
+    System.out.println("4       |  Alexandre");
+    System.out.println("5       |  Voto Nulo");
+    System.out.println("6       |  Voto Branco");
+
 
     while (true){
         System.out.print("Insira o seu voto: ");
@@ -74,5 +84,9 @@ public class Exercicio85 {
 
 
     }
+    else{
+        System.out.println("Nenhum voto foi computado!");
+    }
+    scanner.close();
 }
 }
