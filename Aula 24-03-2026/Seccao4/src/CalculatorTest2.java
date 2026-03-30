@@ -4,42 +4,27 @@ public class CalculatorTest2 {
         //Instanciar um objeto Calculator2
         Calculator2 calc = new Calculator2();
 
-        calc.originalPrice=10.00;
-        System.out.println("Pessoa 1: $");
-        calc.findTotal();
 
-        calc.originalPrice=12.00;
-        System.out.println("Pessoa 2: $");
-        calc.findTotal();
+        calc.findTotal(10.00,"Pessoa 1");
 
-        calc.originalPrice=9.00;
-        System.out.println("Pessoa 3: $");
-        calc.findTotal();
+        calc.findTotal(12.00,"Pessoa 2");
 
-        calc.originalPrice=8.00;
-        System.out.println("Pessoa 4: $");
-        calc.findTotal();
+        calc.findTotal(9.00,"Pessoa 3");
 
-        calc.originalPrice=7.00;
-        System.out.println("Pessoa 5: $");
-        calc.findTotal();
+        calc.findTotal(8.00,"Pessoa 4");
 
-        calc.originalPrice=15.00;
-        System.out.println("Pessoa 6: $");
-        calc.findTotal();
+        calc.findTotal(7.00,"Pessoa 5");
 
-        calc.originalPrice=11.00;
-        System.out.println("Pessoa 7: $");
-        calc.findTotal();
+        calc.findTotal(15.00,"Pessoa 6");
 
-        calc.originalPrice=30.00;
-        System.out.println("Pessoa 8: $");
-        calc.findTotal();
+        calc.findTotal(11.00,"Pessoa 7");
+
+        calc.findTotal(30.00,"Pessoa 8");
 
 
         //Acessar os campos e métodos do objeto Calculator2
         //para encontrar o total para cada membro da festa de aniversário
-
+        calc.mostrar_total();
 
         /*This is what everyone owes before tax and tip:
         Person 1: $10
