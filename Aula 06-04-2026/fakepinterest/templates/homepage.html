@@ -6,11 +6,18 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portifólio - Teste</title>
+    <title>
+
+        {% block title %}
+        FakePinterest
+        {% endblock %}
+    </title>
 
 </head>
 
+
 <body>
+    {% block body %}
 
     <header class="cabecario">
     <img src="imagens/User.png" alt="Imagem de Usuário" width="100px" height="100px">
@@ -70,9 +77,6 @@
     </footer>
 
 
-
-
-</body>
-
+{% endblock %}
 
 </html>
