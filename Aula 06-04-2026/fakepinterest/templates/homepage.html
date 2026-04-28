@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>
-
         {% block title %}
         FakePinterest
         {% endblock %}
     </title>
 
 </head>
-
+ {% block body %}
 
 <body>
-    {% block body %}
+   
 
     <header class="cabecario">
     <img src="imagens/User.png" alt="Imagem de Usuário" width="100px" height="100px">
@@ -76,6 +75,7 @@
         <p>Contato: seu_email@gmail.com</p>
     </footer>
 
+</body>
 
 {% endblock %}
 

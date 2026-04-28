@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        Fake
+        {% endblock %}
+    </title>
+</head>
+<body>
+{% block body %}
+    <h1><i>Meu primeiro site no ar</i></h1>
+
+    <h2>Vamos continuar nosso site</h2>
+
+    <form method="POST">
+        {{ form.csrf_token }}
+        <p>
+            {{ form.email.label }}<br>
+            {{ form.email() }}
+        </p>
+
+        <p>
+            {{ form.senha.label }}<br>
+            {{ form.senha() }}
+        </p>
+         
+        <!-- AJUSTE AQUI: Veja se no forms.py é confirmar ou confirmacao-->
+        {{ form.botao_confirmacao() }}
+    </form>
+    <hr>
+    <p>Não tem conta? <a href="{{ url_for('criarconta') }}">Clique aqui para criar uma</a></p>
+
+    {% block formulario %}
+    {# Este bloco ficará vazio aqui e será preenchido pelo criarconta.html #}
+    {% endblock %}
+    
+{% endblock %}
+</body>
+</html>

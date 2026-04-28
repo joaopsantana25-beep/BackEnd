@@ -9,5 +9,5 @@ def homepage():
 
 @app.route('/perfil/<usuario>')
 def perfil(usuario):
-    return render_template('perfil.html',usuario=usuario)
+    return render_template("perfil.html",usuario=usuario)
 
