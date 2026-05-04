@@ -3,7 +3,7 @@
 from fakepinterest import database,login_manager
 from datetime import datetime
 from flask_login import UserMixin
-from sqlalchemy.orm import relationship
+
 
 @login_manager.user_loader
 def load_user(id_usuario):
