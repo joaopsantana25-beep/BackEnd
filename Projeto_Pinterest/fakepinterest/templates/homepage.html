@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>
+        {% block title %}
+        FakePinterest
+        {% endblock %}
+    </title>
+
+</head>
+ 
+
+<body>
+   {% block body %}
+
+   <h1>FakePinterest - Meu primeiro site no ar</h1>
+
+   <h2>Agora vamos continuar nosso site</h2>
+
+    <form method="POST">
+        {{ form.csrf_token }}
+
+        <p>
+        {{form.email.label}}<br>
+        {{form.email()}}
+        </p>
+
+        <p>
+        {{ form.senha.label}}<br>
+        {{form.senha()}}
+        </p>
+
+        {{form.botao_confirmar()}}
+    </form>
+    <hr>
+    <p>Não tem conta? <a href = "{{ url_for('criarconta')}}">Clique aqui para criar uma conta</a></p>
+
+    {% block formulario %}
+    {#Este bloco ficará fazio aqui e será preenchido pelo ciraconta.html #}
+    {% endblock %}
+
+    {%endblock%}
+
+</body>
+
+
+
+</html>
