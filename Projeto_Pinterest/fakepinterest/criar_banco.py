@@ -1,6 +1,6 @@
-from fakepinterest import database,app
+'''from fakepinterest import database,app
 from datetime import datetime
-from fakepinterest.models import Usuario,Foto
+
 
 print("Entrou no Script!")
 
@@ -10,3 +10,12 @@ with app.app_context():
     print("Create_all foi executado")
 
 print("Finalizou!")
+'''
+# criar_banco.py
+from . import app, database # database = SQLAlchemy(app)
+from fakepinterest import models          # IMPORTANTE: importa os models para criar as tabelas
+
+# Cria todas as tabelas definidas nos models
+with app.app_context():
+    database.create_all()
+    print("Banco e tabelas criados com sucesso!")
