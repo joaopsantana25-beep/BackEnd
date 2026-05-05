@@ -8,7 +8,8 @@ public class Prisoner5 {
     private double height;
     private int sentence;
     private Cell2 cell;
-
+    private static int prisonerCount=0;
+    private int bookingNumber;
 
 
     //Constructor
@@ -17,11 +18,22 @@ public class Prisoner5 {
         this.height = height;
         this.sentence = sentence;
         this.cell=cell;
+
+        prisonerCount++;
+
+        this.bookingNumber=prisonerCount;
     }
+
+
 
     //Methods
     public void think(){
         System.out.println("Eu terei mina vingança.");
+    }
+
+    public void displayPrisonerCount(){
+        System.out.println(prisonerCount);
+        System.out.println(bookingNumber);
     }
 
     public void showFields(){
@@ -72,9 +84,6 @@ public class Prisoner5 {
     public void setCell(Cell2 cell){
         this.cell = cell;
     }
-
-
-
 
 
 }
