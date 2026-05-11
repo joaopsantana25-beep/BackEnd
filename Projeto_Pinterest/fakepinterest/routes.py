@@ -33,10 +33,11 @@ def perfil(usuario):
 # fakepinterest/routes.py
 
 from flask import render_template, url_for, redirect
+from flask_login import login_required, login_user, logout_user
 from fakepinterest import app, database, bcrypt
 from fakepinterest.models import Usuario, Foto
 from fakepinterest.forms import LoginForm, FormCriarConta
-from flask_login import login_required
+
 
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
@@ -53,7 +54,8 @@ def criarconta():
         usuario = Usuario(username=formCriarConta.username.data, senha=senha, email=formCriarConta.email.data)
         database.session.add(usuario)
         database.session.commit()
-        return redirect(url_for('homepage'))
+        login_user(usuario, remember=True)
+        return redirect(url_for('perfil',usuario=usuario.username))
 
     return render_template("criarconta.html", form=formCriarConta)
 

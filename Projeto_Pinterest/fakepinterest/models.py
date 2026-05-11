@@ -11,6 +11,10 @@ def load_user(id_usuario):
 
 class Usuario(UserMixin,database.Model):
     id_usuario=database.Column(database.Integer, primary_key=True)
+
+    def get_id(self):
+        return str(self.id_usuario)
+    
     username=database.Column(database.String(80), nullable = False)
     email=database.Column(database.String(80),nullable=False, unique=True)
     senha=database.Column(database.String(80), nullable=False)

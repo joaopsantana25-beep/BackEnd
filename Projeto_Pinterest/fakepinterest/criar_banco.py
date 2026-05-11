@@ -12,8 +12,8 @@ with app.app_context():
 print("Finalizou!")
 '''
 # criar_banco.py
-from . import app, database # database = SQLAlchemy(app)
-from fakepinterest import models          # IMPORTANTE: importa os models para criar as tabelas
+from fakepinterest import app, database # database = SQLAlchemy(app)
+import fakepinterest.models          # IMPORTANTE: importa os models para criar as tabelas
 
 # Cria todas as tabelas definidas nos models
 with app.app_context():
