@@ -74,10 +74,11 @@ def perfil(usuario):
     return render_template("perfil.html",usuario=usuario)
 
     '''
+    Ignorar essa parte por enquanto
     if int(id_usuario) == int(current_user.id):
-        return render_template("perfil.html", usuario = current_user.username)
+        return render_template("perfil.html", id_usuario = current_user.username)
     
     else:
-        usuario = Usuario.query.get(int(id_usuario))
-        return render_template("perfil.html", usuario=usuario)
-        '''
+        usario = Usuario.query.get(int(id_usuario))
+        return render_template("perfil", id_usuario=usario)
+    '''
