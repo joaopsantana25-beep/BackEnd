@@ -36,6 +36,10 @@ public class Prisoner5 {
         System.out.println(bookingNumber);
     }
 
+    public void callAnotherMethod(){
+        displayPrisonerCount();
+    }
+
     public void showFields(){
         System.out.println(this.name);
         System.out.println(this.height);
@@ -70,6 +74,13 @@ public class Prisoner5 {
     public Cell2 getCell(){
         return cell;
     }
+
+    /*
+    public static int getPrisonerCount{
+        return prisonerCount;
+    }
+
+     */
 
     //setters
     public void setName(String name){
