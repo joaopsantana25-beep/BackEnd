@@ -15,6 +15,5 @@ public class AccountTest {
         sa0001.CheckingAccount();
         sa0001.withdraw(10);
 
-
     }
 }

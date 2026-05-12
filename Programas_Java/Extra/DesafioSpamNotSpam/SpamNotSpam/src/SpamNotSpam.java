@@ -72,10 +72,12 @@ public class SpamNotSpam {
 
         );
 
+
         //Código
         for(String frase : frases){
 
             contadorDePalavras=0;
+
 
             String[] palavrasDasFrases = frase.toLowerCase().split(" ");
 
@@ -100,8 +102,8 @@ public class SpamNotSpam {
         }
 
 
-        System.out.print(avaliacoes);
-        }
+        System.out.println(avaliacoes);
+    }
 }
 
 

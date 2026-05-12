@@ -10,6 +10,8 @@ public class PrisonTest_Student_7_6 {
 
         Prisoner5 bubba = new Prisoner5("Bubba", 2.08, 4, cellA1);
 
+        bubba.showFields();
+
 
     }
 }
