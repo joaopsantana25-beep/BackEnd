@@ -1,51 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13a2690c-093c-4f15-94bc-b3104f9f431d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Exercicios_Atividades_Secao7/.idea/Aula 28-04-2026.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercicios_Atividades_Secao7/.idea/Aula 28-04-2026.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exercicios_Atividades_Secao7/Secao7/src/Sec7_6/Prisoner5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercicios_Atividades_Secao7/Secao7/src/Sec7_6/Prisoner5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/.idea/DesafioTecnico.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/.idea/DesafioTecnico.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/META-INF/DesafioTecnico.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/out/production/DesafioTecnico/transacao-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/TransacaoApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/business/services/EstatisticasService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/business/services/TransacaoServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/controller/EstatisticasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/controller/TransacaoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/controller/dtos/EstatisticasResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/controller/dtos/TransacaoRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/java/com/Santana/transacao_api/infrastructure/exceptions/UnprocessableEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico/transacao-api/src/test/java/com/Santana/transacao_api/TransacaoApiApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/src/DesafioSequencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,28 +16,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3DdK1zxYeGa1rNqB41RXPoqlJy8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Joao_Santana/Segundo Semestre/BackEnd2/Programas_Java/Extra/DesafioSpamNotSpam",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Joao_Santana/Segundo Semestre/BackEnd2/Programas_Java/Extra/DesafioSpamNotSpam&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
