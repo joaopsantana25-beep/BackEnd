@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ee6356c-2a52-47af-bc7d-10abc978d8bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/MaiorSequencia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/src/DesafioSequencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaiorSequencia/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesafioValidarSequencia/ValidacaoSequencia/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesafioValidarSequencia/ValidacaoSequencia/out/production/ValidacaoSequencia/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesafioValidarSequencia/ValidacaoSequencia/out/production/ValidacaoSequencia/ValidarSequencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesafioSpamNotSpam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DesafioSpamNotSpam/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3DgQGtiPKY2tNYHwurMcRO6AMSi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Joao_Santana/Segundo Semestre/BackEnd2/Programas_Java/Extra/DesafioMaiorSequencia",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ee6356c-2a52-47af-bc7d-10abc978d8bd" name="Changes" comment="" />
+      <created>1778701140337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778701140337</updated>
+    </task>
+    <servers />
+  </component>
+</project>
