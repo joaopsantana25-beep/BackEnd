@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a2690c-093c-4f15-94bc-b3104f9f431d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/MaiorSequencia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/src/DesafioSequencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioMaiorSequencia/MaiorSequencia/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioValidarSequencia/ValidacaoSequencia/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioValidarSequencia/ValidacaoSequencia/out/production/ValidacaoSequencia/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesafioValidarSequencia/ValidacaoSequencia/out/production/ValidacaoSequencia/ValidarSequencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13a2690c-093c-4f15-94bc-b3104f9f431d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
