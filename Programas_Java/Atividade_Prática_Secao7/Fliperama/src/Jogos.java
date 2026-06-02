@@ -33,10 +33,10 @@ public class Jogos {
 
         System.out.println("Número do cartão: "+cartao.getNumeroCartao());
 
-        cartao.subtrairSaldo(creditosNecessarios);
+        cartao.setSaldoAtual(cartao.getSaldoAtual()-creditosNecessarios);
         System.out.println("Saldo atual: "+cartao.getSaldoAtual());
 
-        cartao.adicionarTiquetes(numeroTiquetes);
+        cartao.setSaldoTiquetes(cartao.getSaldoTiquetes()+numeroTiquetes);
         System.out.println("Tíquetes ganho: "+numeroTiquetes);
         System.out.println("Saldo atual de tiquetes: "+ cartao.getSaldoTiquetes());
 

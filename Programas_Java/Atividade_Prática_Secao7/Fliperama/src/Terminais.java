@@ -11,12 +11,52 @@ public class Terminais {
         this.premio3 = premio3;
     }
 
+    public void adicionarSaldo(Cartoes cartao, int valor){
+        if (valor >= 0) {
+            cartao.setSaldoAtual(cartao.getSaldoAtual()+valor);
+        } else {
+            System.out.println("Valor Inválido");
+        }
+    }
+
+    public void subtrairSaldo(Cartoes cartao, int valor) {
+        if (valor < 0) {
+            System.out.println("Valor inválido");
+            return;
+        }
+
+        if (valor > cartao.getSaldoAtual()) {
+            cartao.setSaldoAtual(0);
+        } else {
+            cartao.setSaldoAtual(cartao.getSaldoAtual()-valor);
+        }
+    }
+
+    public void adicionarTiquetes(Cartoes cartao, int valor) {
+        if (valor > 0) {
+            cartao.setSaldoTiquetes(cartao.getSaldoTiquetes()+valor);
+        } else {
+            System.out.println("Valor inválido");
+        }
+    }
+
+    public void subtrairTiquetes(Cartoes cartao, int valor) {
+        if (valor < 0) {
+            System.out.println("Valor inválido");
+            return;
+        }
+
+        cartao.setSaldoTiquetes(cartao.getSaldoTiquetes()-valor);
+
+        if (cartao.getSaldoTiquetes()< 0) {
+            cartao.setSaldoTiquetes(0);
+        }
+    }
+
     public void adicionarCreditos(int dinheiro, Cartoes cartao) {
         int numeroCreditos = dinheiro * 2;
 
-        cartao.adicionarSaldo(numeroCreditos);
-
-        consultarSaldo(cartao);
+        adicionarSaldo(cartao, numeroCreditos);
     }
 
     public void consultarSaldo(Cartoes cartao){
@@ -39,8 +79,34 @@ public class Terminais {
             return;
         }
 
-        cartao1.subtrairSaldo(valorTransferido);
-        cartao2.adicionarSaldo(valorTransferido);
+        subtrairSaldo(cartao1, valorTransferido);
+        adicionarSaldo(cartao2, valorTransferido);
+
+
+        consultarSaldo(cartao1);
+        System.out.println("-----------------");
+        consultarSaldo(cartao2);
+        System.out.println("-----------------");
+
+        System.out.println("Operação realizada com sucesso!");
+    }
+
+    public void transferirTiquetes(Cartoes cartao1,Cartoes cartao2,int valorTransferido){
+
+        if(valorTransferido<=0){
+            System.out.println("Valor Inválido!");
+            return;
+        }
+
+        int saldoTiquetes1 = cartao1.getSaldoTiquetes();
+
+        if(saldoTiquetes1<valorTransferido){
+            System.out.println("O cartão não tem tiquetes o suficiente para transferir");
+            return;
+        }
+
+        subtrairTiquetes(cartao1, valorTransferido);
+        adicionarTiquetes(cartao2, valorTransferido);
 
 
         consultarSaldo(cartao1);
@@ -68,7 +134,7 @@ public class Terminais {
 
         quantidadeDisponivel--;
 
-        cartao.subtrairTiquetes(tiqueteNecessario);
+        subtrairTiquetes(cartao,tiqueteNecessario);
         premio.setQuantidadeDisponivel(quantidadeDisponivel);
 
         System.out.println("Prêmio Concedido!");

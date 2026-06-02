@@ -19,59 +19,70 @@ public class Main {
         //Terminais
         Terminais terminal = new Terminais(bonecos,pelucias,bicicletas);
 
+        System.out.println("=== CARREGANDO CRÉDITOS ===");
 
-        //Teste do Código
-    /*
-        //Carregue os créditos em cada cartão
+        terminal.adicionarCreditos(100, cartao1);
+        terminal.adicionarCreditos(50, cartao2);
 
-        cartao1.adicionarSaldo(50);
         terminal.consultarSaldo(cartao1);
-
-        cartao2.adicionarSaldo(30);
         terminal.consultarSaldo(cartao2);
 
-        //Jogue um grupo de jogos usando dois cartoes
+        System.out.println("\n=== JOGANDO ===");
 
+        jogoAleatorio.jogar(cartao1);
         jogoAleatorio.jogar(cartao1);
 
         jogoAleatorio.jogar(cartao2);
+        jogoAleatorio.jogar(cartao2);
 
+        System.out.println("\n=== TRANSFERINDO CRÉDITOS ===");
 
-        //Transferir créditos do cartão 1 para o 2
+        terminal.transferirCredito(
+                cartao1,
+                cartao2,
+                cartao1.getSaldoAtual()
+        );
 
-        terminal.transferirCredito(cartao1,cartao2,50);
+        System.out.println("\n=== TRANSFERINDO TIQUETES ===");
 
+        terminal.transferirTiquetes(
+                cartao1,
+                cartao2,
+                cartao1.getSaldoTiquetes()
+        );
 
-        //Solicitar prêmios com o cartão 2
-        System.out.println("Os prêmios são: ");
-        System.out.println("Premio 1: bonecos");
-        System.out.println("Premio 2: pelucias");
-        System.out.println("Premio 3: bicicletas");
-        System.out.print("Escolha um prêmio : ");
+        System.out.println("\n=== SALDOS APÓS TRANSFERÊNCIA ===");
 
-        String escolha = scanner.nextLine();
+        terminal.consultarSaldo(cartao1);
+        terminal.consultarSaldo(cartao2);
 
-        terminal.escolherPremio(cartao2,escolha);
+        System.out.println("\n=== RESGATANDO PRÊMIOS COM CARTÃO 2 ===");
 
+        terminal.escolherPremio(cartao2, "1");
+        terminal.escolherPremio(cartao2, "2");
 
-
-        //Tente jogar um jogo e solicitar um prêmio com o cartão 1
+        System.out.println("\n=== TESTANDO CARTÃO 1 VAZIO ===");
 
         jogoAleatorio.jogar(cartao1);
-        terminal.escolherPremio(cartao1,"3");
 
-     */
+        terminal.escolherPremio(cartao1, "1");
 
-        //Execute quaisquer outras ações que sejam necessárias para testar seu programa.
+        System.out.println("\n=== SALDOS FINAIS ===");
 
-
-
-
-
-
-
-
-
-
+        terminal.consultarSaldo(cartao1);
+        terminal.consultarSaldo(cartao2);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

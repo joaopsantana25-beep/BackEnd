@@ -48,48 +48,11 @@ public class Cartoes {
         }
     }
 
-    public void adicionarSaldo(int valor){
+    public void setSaldoTiquetes(int valor) {
         if (valor >= 0) {
-            this.saldoAtual += valor;
+            this.saldoTiquetes = valor;
         } else {
             System.out.println("Valor Inválido");
         }
     }
-
-    public void subtrairSaldo(int valor) {
-        if (valor < 0) {
-            System.out.println("Valor inválido");
-            return;
-        }
-
-        if (valor > this.saldoAtual) {
-            this.saldoAtual = 0;
-        } else {
-            this.saldoAtual -= valor;
-        }
-    }
-
-    public void adicionarTiquetes(int valor) {
-        if (valor > 0) {
-            this.saldoTiquetes += valor;
-        } else {
-            System.out.println("Valor inválido");
-        }
-
-    }
-
-    public void subtrairTiquetes(int valor) {
-        if (valor < 0) {
-            System.out.println("Valor inválido");
-            return;
-        }
-
-        this.saldoTiquetes -= valor;
-
-        if (this.saldoTiquetes < 0) {
-            this.saldoTiquetes = 0;
-        }
-    }
-
-
 }
